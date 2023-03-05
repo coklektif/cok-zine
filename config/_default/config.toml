@@ -9,7 +9,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 15
 summaryLength = 0
-ignoreErrors = [“error-remote-getjson”]
+ignoreErrors = error-remote-getjson
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
