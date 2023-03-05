@@ -6,3 +6,7 @@
   {{ partial "partials/home/profile.html" . }}
 </div>
 <script defer type="text/javascript" src="{{ $jsHome.RelPermalink }}" integrity="{{ $jsHome.Data.Integrity }}"></script>
+
+{{ if .IsHome }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
