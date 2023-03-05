@@ -11,7 +11,7 @@ autoSwitchAppearance = true
 
 enableSearch = false
 enableCodeCopy = false
-ignoreErrors = [“error-remote-getjson”]
+ignoreErrors = “error-remote-getjson”
 # robots = ""
 
 [header]
