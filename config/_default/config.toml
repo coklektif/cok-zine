@@ -2,16 +2,13 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-baseURL = "/"
-theme = "congo-cok"
+# baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
+theme = "congo-cok"
 
 enableRobotsTXT = true
-paginate = 15
+paginate = 10
 summaryLength = 0
-ignoreErrors = error-remote-getjson
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-
