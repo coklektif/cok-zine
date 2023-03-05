@@ -5,6 +5,8 @@
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
 theme = "congo-cok"
+ignoreErrors = ["error-remote-getjson"]
+
 
 enableRobotsTXT = true
 paginate = 10
