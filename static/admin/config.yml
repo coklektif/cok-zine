@@ -81,3 +81,24 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+
+  - name: 'zine'
+    label: 'Zines'
+    folder: 'content/zine'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Summary', name: 'description', widget: 'string' }
+      - { label: 'Lead', name: 'lead', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Last Modification', name: 'lastmod', widget: 'datetime' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false}
+      - { label: 'Image', name: 'image', widget: 'image'}
+      - { label: 'Image Alt text', name: 'imageAlt', widget: 'string' }
+      - { label: 'Image caption', name: 'imageCap', widget: 'string' }
+      - { label: 'Contributors', name: 'contributors', widget: 'string' }
+      - { label: 'Contributors Medsos', name: 'contributorsmedsos', widget: 'string' }
+      - { label: 'Contributors Image', name: 'contributorsImage', widget: 'image'}
+      - { label: 'Weight', name: 'weight',  widget: "number", default: 1, value_type: "int",  min: 1,  max: 100,  step: 2 }
+      - { label: 'Table of Content', name: 'toc', widget: "boolean", default: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
