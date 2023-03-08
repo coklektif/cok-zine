@@ -16,7 +16,7 @@ enableCodeCopy = false
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/logo.png"
+  #logo = "img/logo.png"
   showTitle = false
 
 [footer]
@@ -26,7 +26,7 @@ enableCodeCopy = false
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
+  layout = "custom" # valid options: page, profile, custom
   showRecent = false
   recentLimit = 5
 
