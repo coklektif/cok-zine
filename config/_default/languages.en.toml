@@ -5,9 +5,9 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Congo"
-# description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Coklektif Zine"
+description = "Zine kolektif terbit kalau adminnya niat."
+copyright = "Copyright? Kolektif kok pake hak cipta? :thinking_face:"
 
 dateFormat = "2 January 2006"
 
