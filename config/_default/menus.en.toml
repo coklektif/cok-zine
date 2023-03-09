@@ -19,6 +19,14 @@
 [[main]]
   name = "Zine"
   pageRef = "zine"
+  url = "/zine"
+  weight = 30
+
+[[main]]
+  name = "Submission"
+  pageRef = "submission"
+  url = "/submission"
+  title = "Open Submission"
   weight = 30
 
 [[main]]
