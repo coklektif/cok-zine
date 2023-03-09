@@ -13,6 +13,7 @@
 [[main]]
   name = "Artikel"
   pageRef = "post"
+  url = "/post"
   weight = 10
 
 [[main]]
