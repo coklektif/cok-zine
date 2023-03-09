@@ -14,13 +14,13 @@
   name = "Artikel"
   pageRef = "post"
   url = "/post"
-  weight = 10
+  weight = 30
 
 [[main]]
-  name = "Zine"
+  name = "ZINE"
   pageRef = "zine"
   url = "/zine"
-  weight = 30
+  weight = 10
 
 [[main]]
   name = "Submission"
